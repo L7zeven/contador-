@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family= Kalam: wght @700 & display=swap');
+    
+}
+
+body {
+    background-color: #dbd6e2;
+    
+}
+
+.principal {
+    font-family: 'Kalam', cursiva;
+    font-size: 16px; /*tamanho da fonte*/
+    color: rgb(253, 253, 253); /*cor*/
+    width: 400px; /*altura*/
+    margin: 150px auto; /*margem 150px auto */
+    display: flex; /*display liberado*/
+    flex-direction: column; /*botar os itens em coluna*/
+    align-items: center;/*alinhar os itens no centro*/
+    justify-content: center;/* ajustar o conteudo no centro*/
+    min-height: 50vh;/*alturo da div*/
+    background: #220c3f;/*fundo*/
+    border-radius: 2rem; /*arrendodar as bordas*/
+}
+h1{
+    text-transform: uppercase; /*botar em caixa alta*/
+}
+
+p{
+    display: flex; /*liberar o display */
+    font-size: 5rem; /*tamanho*/
+}
+
+.contar {
+    font-size: 3rem; /*tamanho da font */
+    font-weight: bold; /*fonte*/ 
+    color: rgb(255, 255, 255); /*cor */
+}
+button {
+    color: #fff; /*cor */
+    border: none; /*sem borda*/ 
+    padding: 10px 20px; /*padding de 10px e 20px*/
+    border-radius: 5px; /*arrendondar as bordas*/
+    font-size: 18px; /*tamanho da font*/
+    cursor: pointer; /*cursor do mouse para maozinha quando passar por cima */
+    margin-top: 20px; /*margem de cima */
+    margin-left: 1rem; /*margem do lado */
+}
+
+.diminuir {
+    background-color: #4caf50; /*fundo */
+    
+}
+
+.adicionar{
+    background: #f44336; /*fundo */
+}
+
+.zerar{
+    background-color: #2196f3; /*fundo */
+}
